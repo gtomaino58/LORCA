@@ -187,9 +187,9 @@ if device.type == 'cuda':
     num_workers = torch.cuda.device_count() * 4
     print(f"Number of workers: {num_workers}")
 
-Batch_Size = 16
-Learning_Rate = 0.000001 
-Num_Epochs = 10
+Batch_Size = 8
+Learning_Rate = 0.00001 
+Num_Epochs = 100
 
 print("Hiperparametros:")
 print(f"Batch Size: {Batch_Size}")
